@@ -1,0 +1,41 @@
+[
+  {
+    "id": 100,
+    "lsNum": "QY96N0",
+    "lsPrefix": "京",
+    "carType": "广汽 欧蓝德",
+    "lastQueryText": "上次查询：12分钟前",
+    "endorsementInfo": ["暂无新的违章记录"],
+    "endorsementInfoType": "safe",
+    "restriction": true,
+    "totalCount": 0,
+    "totalPrice": 0,
+    "totalScore": 0
+  },
+  {
+    "id": 398,
+    "lsNum": "QY96N0",
+    "lsPrefix": "京",
+    "carType": "广汽 欧蓝德",
+    "lastQueryText": "上次查询：20分钟前",
+    "endorsementInfo": ["违章 4", "罚款 800", "扣分 8"],
+    "endorsementInfoType": "warning",
+    "restriction": false,
+    "totalCount": 4,
+    "totalPrice": 800,
+    "totalScore": 8
+  },
+  {
+    "id": 400,
+    "lsNum": "QY96N0",
+    "lsPrefix": "京",
+    "carType": "广汽 欧蓝德",
+    "lastQueryText": "上次查询：27分钟前",
+    "endorsementInfo": ["违章 4", "罚款 800", "扣分 8"],
+    "endorsementInfoType": "warning",
+    "restriction": true,
+    "totalCount": 4,
+    "totalPrice": 800,
+    "totalScore": 8
+  }
+]

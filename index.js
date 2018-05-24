@@ -8,12 +8,21 @@ const app = express();
 app.use(express.static('public'))
 
 
+
 app.listen('8233', () => {
   console.log('server started')
   console.log('http://localhost:8233')
 })
 
-
 app.get('/', (req, res) => {
   res.send('BAKA');
+})
+
+app.get('/endorsement/info', (req, res) => {
+  let carId = req.query.cid, allCar = fs.readJsonSync(path.join(__dirname, 'public', 'endorsement.json')), resData = ''
+  allCar.forEach(val => {
+    if(val.id == carId)
+      resData = JSON.stringify(val)
+  })
+  res.send(resData)
 })
