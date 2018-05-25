@@ -15,7 +15,8 @@ app.listen('8233', () => {
 })
 
 app.get('/', (req, res) => {
-  res.send('BAKA');
+  let data = fs.readFileSync(path.join(__dirname, 'public', 'index.html'), 'utf-8')
+  res.send(data);
 })
 
 app.get('/endorsement/info', (req, res) => {
