@@ -27,3 +27,4 @@ app.get('/endorsement/info', (req, res) => {
   })
   res.send(resData)
 })
+/* test only */
